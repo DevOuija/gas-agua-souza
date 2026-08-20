@@ -3,36 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HSMDV929BQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HSMDV929BQ');
-</script>
 
     <title>Delivery de Gás e Água em Juiz de Fora | Gás & Água Souza</title>
 
     <meta name="description"
         content="Entrega rápida de gás de cozinha (P13, P45) e água mineral 20L em Juiz de Fora - MG. Peça pelo WhatsApp com frete rápido para o seu bairro.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Gás & Água Souza">
 
     <!-- Open Graph / Social -->
     <meta property="og:title" content="Delivery de Gás e Água em Juiz de Fora | Gás & Água Souza">
     <meta property="og:description" content="Entrega rápida de gás P13, P45 e água 20L em Juiz de Fora. Peça pelo WhatsApp.">
-    <meta property="og:image" content="logo.png">
+    <meta property="og:image" content="imagem/logo.webp">
     <meta property="og:type" content="business.business">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Gás & Água Souza">
+    <meta name="twitter:card" content="summary">
     <meta name="theme-color" content="#ff4d16">
 
     <meta name="geo.region" content="BR-MG">
      <meta name="geo.placename" content="Juiz de Fora">
-      <!-- Schema.org (Dados Estruturados para o Google entender sua empresa local) -->
-        <script type="application/ld+json"> 
-            { "@context": "https://schema.org", "@type": "LocalBusiness", "name": "Gás & Água Souza", "telephone": "+5532988328522", "priceRange": "$$", "address": { "@type": "PostalAddress", "addressLocality": "Juiz de Fora", "addressRegion": "MG", "addressCountry": "BR" }, "areaServed": "Juiz de Fora" }
-         </script> 
+    <!-- Dados estruturados para SEO local. Endereco e horario devem ser adicionados quando confirmados. -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Gás & Água Souza",
+            "description": "Entrega de gás de cozinha P13 e P45 e água mineral de 20 litros em Juiz de Fora, MG.",
+            "image": "imagem/logo.webp",
+            "telephone": "+5532988328522",
+            "priceRange": "$$",
+            "areaServed": {
+                "@type": "City",
+                "name": "Juiz de Fora"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Juiz de Fora",
+                "addressRegion": "MG",
+                "addressCountry": "BR"
+            },
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Produtos entregues",
+                "itemListElement": [
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Botijão de gás P13" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Cilindro de gás P45" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Água mineral 20 litros" } }
+                ]
+            }
+        }
+    </script>
 
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/webp" href="imagem/logo.webp">
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,12 +70,14 @@
 
     <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
 
+    <script src="script.js" defer></script>
+
     <!-- HEADER -->
     <header class="header">
 
         <a href="#" class="brand">
             <img
-                src="logo.png"
+                src="imagem/logo.webp"
                 alt="Gás & Água Souza"
                 class="logo-img"
                 width="62"
@@ -60,7 +85,7 @@
             >
 
             <div class="brand-text">
-               <h1> <strong>GÁS & ÁGUA</strong></h1>
+               <div class="brand-title"><strong>GÁS & ÁGUA</strong></div>
                 <span>SOUZA</span>
             </div>
         </a>
@@ -184,7 +209,7 @@
 
                     <div class="card-icon product-image-box">
                         <img
-                            src="p13.png"
+                            src="imagem/p13.webp"
                             alt="Botijão de gás P13 13kg"
                             class="product-image"
                             loading="lazy"
@@ -240,7 +265,7 @@
 
                     <div class="card-icon product-image-box">
                         <img
-                            src="agua20l.png"
+                            src="imagem/agua20l.webp"
                             alt="Galão de água mineral 20 litros"
                             class="product-image"
                             loading="lazy"
@@ -296,7 +321,7 @@
 
                     <div class="card-icon product-image-box">
                         <img
-                            src="p45.png"
+                            src="imagem/p45.webp"
                             alt="Cilindro de gás P45 45kg"
                             class="product-image"
                             loading="lazy"
@@ -452,7 +477,7 @@
             <div class="footer-brand">
 
                 <img
-                    src="logo.png"
+                    src="imagem/logo.webp"
                     alt="Gás & Água Souza"
                     width="55"
                     height="55"
